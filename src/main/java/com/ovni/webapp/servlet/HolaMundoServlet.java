@@ -19,6 +19,7 @@ public class HolaMundoServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse res) throws ServletException, IOException {
         res.setContentType("text/html");
+        
         PrintWriter writer = res.getWriter();
         writer.println("<!DOCTYPE html>");
         writer.println("<html>");
